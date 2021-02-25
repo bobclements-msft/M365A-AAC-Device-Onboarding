@@ -1,1 +1,2 @@
-# Projects related to Microsoft 365 Apps for Enterprise
+# Microsoft 365 Apps for Enterprise
+Projects pertaining to M365 Apps for Enterprise
