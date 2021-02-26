@@ -7,8 +7,8 @@ The following
 ## PowerShell Execution Policy
 The configuration items contained in this baseline use PowerShell scripts. These scripts are not signed as part of this offering. Before deploying the baseline consider the following options:
 
-    - Configure the [PowerShell execution policy](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/deploy/about-client-settings#powershell-execution-policy) in Client Settings to Bypass sript signing requirements.
-    - [Sign the scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.1) used in each configuration item.
+- Configure the [PowerShell execution policy](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/deploy/about-client-settings#powershell-execution-policy) in Client Settings to Bypass sript signing requirements.
+- [Sign the scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.1) used in each configuration item.
 
 ## Importing the Configuration Baseline
 1. Download **Apps Admin Center Health Check for Device Onboarding.cab**.
