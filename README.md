@@ -2,7 +2,6 @@
 This project and all contained code is provided as-is with no guarantee or warranty concerning the usability or impact on systems. This content may be used, distributed, and modified, provided all parties involved agree that Microsoft and Microsoft Partners are not responsible for the produced outcome. Microsoft will not provide any support through any means.
 
 # Apps Admin Center Health Check for Device Onboarding
-The following 
 
 ## PowerShell Execution Policy
 The configuration items contained in this baseline use PowerShell scripts. These scripts are not signed as part of this offering. Before deploying the baseline consider the following options:
