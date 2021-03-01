@@ -6,11 +6,11 @@ This project and all contained code is provided as-is with no guarantee or warra
 ## PowerShell Execution Policy
 The configuration items contained in this baseline use PowerShell scripts. These scripts are not signed as part of this offering. Before deploying the baseline consider the following options:
 
-- Configure the [PowerShell execution policy](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/deploy/about-client-settings#powershell-execution-policy) in Client Settings to Bypass sript signing requirements.
+- Configure the [PowerShell execution policy](https://docs.microsoft.com/en-us/mem/configmgr/core/clients/deploy/about-client-settings#powershell-execution-policy) in Client Settings to bypass sript signing requirements.
 - [Sign the scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.1) used in each configuration item.
 
 ## Importing the Configuration Baseline
-1. Download **Apps Admin Center Health Check for Device Onboarding.cab**.
+1. Download **[Apps Admin Center Health Check for Device Onboarding.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Device%20Onboarding.cab)**.
 2. Open the **Configuration Manager** console.
 3. From the **Assets and Compliance** workspace, expand **Compliance Settings**.
 4. Right-click on **Configuration Baselines** and select **Import Configuration Data**.
