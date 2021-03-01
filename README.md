@@ -46,7 +46,7 @@ The script will stamp your TenantAssociationKey in the proper location and force
 An application is provided that can be imported and deployed to target devices for collecting logs relative to onboarding.
 
 ## Application Import (CollectSMLogs)
-1. Download **MECM Application - M365 Apps - CollectSMLogs.zip** and extract the contents to your Configuration Manager source package location.
+1. Download **[MECM Application - M365 Apps - CollectSMLogs.zip](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/MECM%20Application%20-%20M365%20Apps%20-%20CollectSMLogs.zip)** and extract the contents to your Configuration Manager source package location.
 2. Open the **Configuration Manager** console.
 3. From the **Software Library** workspace, right-click on **Applications** and select **Import Application**.
 4. On the Import Application Wizard, click **Browse** and select **M365 Apps - CollectSMLogs.zip** (contained in the original ZIP file). 
@@ -60,6 +60,6 @@ An application is provided that can be imported and deployed to target devices f
 2. Right-click on the **M365 Apps - CollectSMLogs** application and select **Distribute Content**.
 3. Complete the Distribute Content Wizard, adding the content to all DPs that will be in scope for delivering this application.
 4. Right-click on the **M365 Apps - CollectSMLogs** application and select **Deploy**. 
-5. Complete the Deploy Software Wizard, targeting 2-3 devices identified by the inventory health check baseline as non-compliant.
+5. Complete the Deploy Software Wizard, targeting 2-3 devices identified by the Apps Admin Center health check baseline as non-compliant.
 
 Following execution, the logs can be collected under **%windir%\Temp\ officesvcmgr_computername.zip**. If you need to rerun the application, make sure the zip file does not exist or has been renamed and rerun an application evaluation cycle.
