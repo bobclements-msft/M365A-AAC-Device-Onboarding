@@ -34,6 +34,8 @@ The following configuration item contains a remediation script:
   - M365A AAC – Onboarding – TenantAssociationKey
 The script will stamp your TenantAssociationKey in the proper location and force the device to checkin with the service. If you choose to enable automatic remediation you will need to update configuration item remediation script with your TenantAssociationKey, which can be retrieved by navigating to https://config.office.com/ and clicking on **Settings**.
 
+_**WARNING:**_ **DO NOT generate a new key**. Simply copy the existing key and paste it into the configuration item remediation script. Generating a new key will break communication with existing devices until they receive the updated key.
+
 ## Deploying the Configuration Baseline
 1. From the **Assets and Compliance** workspace, expand **Compliance Settings** > **Configuration Baselines**.
 2. Right-click on the new baseline and select **Deploy**.
