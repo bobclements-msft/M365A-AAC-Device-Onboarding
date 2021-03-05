@@ -65,3 +65,6 @@ An application is provided that can be imported and deployed to target devices f
 5. Complete the Deploy Software Wizard, targeting 2-3 devices identified by the Apps Admin Center health check baseline as non-compliant.
 
 Following execution, the logs can be collected under **%windir%\Temp\ officesvcmgr_computername.zip**. If you need to rerun the application, make sure the zip file does not exist or has been renamed and rerun an application evaluation cycle.
+
+## Change Log
+- 
