@@ -37,7 +37,7 @@ The script will stamp your TenantAssociationKey in the proper location and force
 _**WARNING:**_ **DO NOT generate a new key**. Simply copy the existing key and paste it into the configuration item remediation script. Generating a new key will break communication with existing devices until they receive the updated key.
 
 ## Importing Baseline Updates
-Please refer to the Change Log for updates to this project. If a new version of the Configuration Baseline is published, use the following steps to update your environment.
+Please refer to the [Change Log](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding#change-log) for updates to this project. If a new version of the Configuration Baseline is published, use the following steps to update your environment.
 1. Download the latest version of the **[Apps Admin Center Health Check for Device Onboarding.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Device%20Onboarding.cab)**.
 2. Open the **Configuration Manager** console.
 3. From the **Assets and Compliance** workspace, expand **Compliance Settings**.
