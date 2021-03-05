@@ -10,7 +10,7 @@ The configuration items contained in this baseline use PowerShell scripts. These
 - [Sign the scripts](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_signing?view=powershell-7.1) used in each configuration item.
 
 ## Importing the Configuration Baseline
-1. Download **[Apps Admin Center Health Check for Device Onboarding.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Device%20Onboarding.cab)**.
+1. Download the latest version of the **[Apps Admin Center Health Check for Device Onboarding.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Device%20Onboarding.cab)**.
 2. Open the **Configuration Manager** console.
 3. From the **Assets and Compliance** workspace, expand **Compliance Settings**.
 4. Right-click on **Configuration Baselines** and select **Import Configuration Data**.
@@ -35,6 +35,19 @@ The following configuration item contains a remediation script:
 The script will stamp your TenantAssociationKey in the proper location and force the device to checkin with the service. If you choose to enable automatic remediation you will need to update configuration item remediation script with your TenantAssociationKey, which can be retrieved by navigating to https://config.office.com/ and clicking on **Settings**.
 
 _**WARNING:**_ **DO NOT generate a new key**. Simply copy the existing key and paste it into the configuration item remediation script. Generating a new key will break communication with existing devices until they receive the updated key.
+
+## Importing Baseline Updates
+Please refer to the Change Log for updates to this project. If a new version of the Configuration Baseline is published, use the following steps to update your environment.
+1. Download the latest version of the **[Apps Admin Center Health Check for Device Onboarding.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Device%20Onboarding.cab)**.
+2. Open the **Configuration Manager** console.
+3. From the **Assets and Compliance** workspace, expand **Compliance Settings**.
+4. Right-click on **Configuration Baselines** and select **Import Configuration Data**.
+5. On the **Import Configuration Data** Wizard, click **Add** and select **Apps Admin Center Health Check for Device Onboarding.cab**. 
+6. Click **Yes** on the publisher notification.
+7. With the baseline selected, click **Next**.
+8. On the **Summary** page, confirm the Configuration Baseline and Configuration Items match the following list. Click **Next** to complete the import. 
+
+If you receive an error message during the import process you can dismiss the prompt. Select the **Configuration Items** node and confirm the CI versions match those shown in the change log.
 
 ## Deploying the Configuration Baseline
 1. From the **Assets and Compliance** workspace, expand **Compliance Settings** > **Configuration Baselines**.
@@ -67,4 +80,19 @@ An application is provided that can be imported and deployed to target devices f
 Following execution, the logs can be collected under **%windir%\Temp\ officesvcmgr_computername.zip**. If you need to rerun the application, make sure the zip file does not exist or has been renamed and rerun an application evaluation cycle.
 
 ## Change Log
-- 02.26.21 - Initial release
+- 02.25.21 - Initial release
+
+    | Configuration Item                              | Version |
+    |-------------------------------------------------|---------|
+    | M365A AAC - Onboarding - AutoProvisioning       | 7       |
+    | M365A AAC - Onboarding - Minimum Office Version | 9       |
+    | M365A AAC - Onboarding - TenantAssociationKey   | 9       |
+    | M365A AAC - Inventory - Inventory File          | 4       |
+    | M365A AAC - ServicingProfile - Scheduled Task   | 2       |
+    | M365A AAC - ServicingProfile - Update Policies  | 2       |
+
+- 03.04.21 - Updated the AutoProvisioning CI for improved accuracy.
+
+    | Configuration Item                        | Version |
+    |-------------------------------------------|---------|
+    | M365A AAC - Onboarding - AutoProvisioning | 8       |
