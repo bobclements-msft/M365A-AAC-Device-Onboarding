@@ -96,3 +96,12 @@ Following execution, the logs can be collected under **%windir%\Temp\ officesvcm
     | Configuration Item                        | Version |
     |-------------------------------------------|---------|
     | M365A AAC - Onboarding - AutoProvisioning | 8       |
+
+- 03.08.21
+    - Scheduled Task CI renamed and updated to report compliant if the task has not executed yet.
+        | Configuration Item                        | Version |
+        |-------------------------------------------|---------|
+        | M365A AAC - Onboarding - Scheduled Task   | 5       |
+    - Update Policies CI moved into a dedicated Servicing Profiles baseline to reduce the # of devices reporting non-compliant in environments where Inventory has been enabled but Servicing Profiles have not.
+
+        [Apps Admin Center Health Check for Servicing Profiles.cab](https://github.com/bobclements-msft/M365A-AAC-Device-Onboarding/raw/main/Apps%20Admin%20Center%20Health%20Check%20for%20Servicing%20Profiles.cab)
