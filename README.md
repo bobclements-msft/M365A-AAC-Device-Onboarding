@@ -98,24 +98,7 @@ An application is provided that can be imported and deployed to target devices f
 
 Following execution, the logs can be collected under **%windir%\Temp\ officesvcmgr_computername.zip**. If you need to rerun the application, make sure the zip file does not exist or has been renamed and rerun an application evaluation cycle.
 
-# Change Log
-- 02.25.21 - Initial release
-
-    | Configuration Item                              | Version |
-    |-------------------------------------------------|---------|
-    | M365A AAC - Onboarding - AutoProvisioning       | 7       |
-    | M365A AAC - Onboarding - Minimum Office Version | 9       |
-    | M365A AAC - Onboarding - TenantAssociationKey   | 9       |
-    | M365A AAC - Inventory - Inventory File          | 4       |
-    | M365A AAC - ServicingProfile - Scheduled Task   | 2       |
-    | M365A AAC - ServicingProfile - Update Policies  | 2       |
-
-- 03.04.21 - Updated the AutoProvisioning CI for improved accuracy.
-
-    | Configuration Item                        | Version |
-    |-------------------------------------------|---------|
-    | M365A AAC - Onboarding - AutoProvisioning | 8       |
-
+# Change Log (sorted newest first)
 - 03.08.21
     - Scheduled Task CI renamed and updated to report compliant if the task has not executed yet.
         | Configuration Item                        | Version |
@@ -128,3 +111,20 @@ Following execution, the logs can be collected under **%windir%\Temp\ officesvcm
         | Apps Admin Center Health Check for Device Onboarding   | 2       |
         | Apps Admin Center Health Check for Servicing Profiles  | 1       |
     - README.md updated to reflect the latest baseline changes.
+
+- 03.04.21
+    - Updated the AutoProvisioning CI for improved accuracy.
+        | Configuration Item                        | Version |
+        |-------------------------------------------|---------|
+        | M365A AAC - Onboarding - AutoProvisioning | 8       |
+        
+- 02.25.21
+    - Initial release
+        | Configuration Item                              | Version |
+        |-------------------------------------------------|---------|
+        | M365A AAC - Onboarding - AutoProvisioning       | 7       |
+        | M365A AAC - Onboarding - Minimum Office Version | 9       |
+        | M365A AAC - Onboarding - TenantAssociationKey   | 9       |
+        | M365A AAC - Inventory - Inventory File          | 4       |
+        | M365A AAC - ServicingProfile - Scheduled Task   | 2       |
+        | M365A AAC - ServicingProfile - Update Policies  | 2       |
