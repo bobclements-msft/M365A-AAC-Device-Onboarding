@@ -16,12 +16,11 @@ This health check is designed to help identify devices that are not appearing in
     - Configuration Baselines (1)
       - Apps Admin Center Health Check for Device Onboarding
     - Configuration Items (5)
+      - M365A AAC - Inventory - Inventory File
       - M365A AAC - Onboarding - AutoProvisioning
       - M365A AAC - Onboarding - Minimum Office Version
       - M365A AAC - Onboarding - Scheduled Task
       - M365A AAC - Onboarding - TenantAssociationKey
-      - M365A AAC - Inventory - Inventory File
-      - M365A AAC - ServicingProfile - Update Policies
 9. On the Confirmation page, click **Close**.
 
 ## Automatic Remediation - TenantAssociationKey
