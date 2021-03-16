@@ -99,6 +99,12 @@ Following execution, the logs can be collected under **%windir%\Temp\ officesvcm
 
 # Change Log
 Changes sorted newest to oldest.
+- 03.16.21
+    - TAK CI updated to check for values in cloud and local policy.
+        | Configuration Item                              | Version |
+        |-------------------------------------------------|---------|
+        | M365A AAC - Onboarding - TenantAssociationKey   | 10      |
+        
 - 03.08.21
     - Scheduled Task CI renamed and updated to report compliant if the task has not executed yet.
         | Configuration Item                        | Version |
